@@ -1,15 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Brand Landing Page</title>
+  <style>
+    /* CSS styles for the hero section */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero {
+      background-image: url(hero-image.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      background-color: #fff;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero button {
+      margin-right: 40px;
+      padding: 50px;
+      font-size: 1.2rem;
+      width: 10px;
+      height: 50px;
+      background-color: #ffffff90;
+      border: none;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 50%;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .hero button:hover {
+      background-color: #c3c3c390;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    .content {
+        background-color: black;
+        width: 100%;
+    }
+  </style>
 </head>
 <body>
-    <h1>Home Page</h1>
-    <h1>From pipeline</h1>
-
-    <a href="/error.html">Error Page</a>
+<div class="container">
+    <div class="hero">
+        <div class="hero-container">
+          <h1>Welcome to My Personal Brand</h1>
+          <p>Discover the power of personal branding</p>
+    
+          <div>
+            <button></button>
+            <button></button>
+            <button></button>
+          </div>
+        
+        </div>
+    </div>
+    <div class="content">
+        <h1>Other section</h1>
+        <h1>Other section</h1>
+        <h1>Other section</h1>
+        <h1>Other section</h1>
+    </div>
+</div>
+<footer class="footer">This is the footer</footer>
 </body>
 </html>
